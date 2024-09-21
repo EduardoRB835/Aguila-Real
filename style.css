@@ -1,0 +1,45 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fuente más divertida */
+    background: url('https://tse3.mm.bing.net/th?id=OIP.D5siAzuoiigR5JCla2TUNQHaHa&pid=Api&P=0&h=180') no-repeat center center fixed; /* Fondo de juego */
+    background-size: cover; /* Asegura que el fondo cubra toda la pantalla */
+    color: white; /* Texto blanco */
+    text-align: center; /* Centra el texto */
+    padding: 50px; /* Espacio alrededor */
+    margin: 0; /* Elimina márgenes */
+}
+
+header {
+    margin-bottom: 30px; /* Espacio debajo del encabezado */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para el texto */
+}
+
+h1 {
+    font-size: 48px; /* Tamaño más grande para el título */
+}
+
+p {
+    font-size: 24px; /* Tamaño del texto de bienvenida */
+}
+
+button {
+    padding: 15px 30px; /* Espacio dentro del botón */
+    font-size: 24px; /* Tamaño de la fuente */
+    background-color: #ff5733; /* Color vibrante para el botón */
+    color: white; /* Texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 10px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    transition: background-color 0.3s; /* Transición suave para el hover */
+}
+
+button:hover {
+    background-color: #ff3311; /* Color del botón al pasar el mouse */
+}
+
+footer {
+    position: fixed; /* Fija el pie de página en la parte inferior */
+    bottom: 10px; /* Espacio desde el fondo */
+    width: 100%; /* Asegura que el pie ocupe todo el ancho */
+    text-align: center; /* Centra el texto */
+    font-size: 14px; /* Tamaño de fuente más pequeño */
+}
